@@ -87,6 +87,5 @@ class DataTransformation:
 
             input_feature_train_arr = preprocessing_obj.fit_transform(input_feature_train_df)
             input_feature_test_arr = preprocessing_obj.transform(input_feature_test_df)
-            pass
         except:
             pass
